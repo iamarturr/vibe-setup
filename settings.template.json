@@ -4,7 +4,7 @@
     "ANTHROPIC_BASE_URL": "https://api.wellflow.dev",
     "ANTHROPIC_API_KEY": "__API_KEY__",
     "CLAUDE_CODE_EFFORT_LEVEL": "high",
-    "ANTHROPIC_MODEL": "claude-opus-4.7",
+    "ANTHROPIC_MODEL": "gpt-5.4",
     "ANTHROPIC_SMALL_FAST_MODEL": "claude-haiku-4.5",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4.7",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4.6",
@@ -37,5 +37,5 @@
   },
   "skipDangerousModePermissionPrompt": false,
   "effortLevel": "max",
-  "model": "claude-opus-4.7"
+  "model": "gpt-5.4"
 }
