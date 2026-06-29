@@ -12,6 +12,7 @@ fi
 echo "==> [1/5] Updating system packages..."
 sudo apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confold" upgrade -y
+sudo apt install npm
 sudo apt-get install -y git curl
 
 echo "==> [2/5] Installing Node.js via nvm..."
