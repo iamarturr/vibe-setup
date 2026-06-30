@@ -31,7 +31,7 @@ npm install -g @anthropic-ai/claude-code
 echo "==> [4/5] Writing Claude Code settings..."
 mkdir -p "$HOME/.claude"
 # Pull the settings template from the same repo and inject the key.
-TEMPLATE_URL="https://raw.githubusercontent.com/iamarturr/vibe-setup/main/settings.template.json"
+TEMPLATE_URL="https://raw.githubusercontent.com/arm4tura/vibe-setup/main/settings.template.json"
 curl -fsSL "$TEMPLATE_URL" -o /tmp/settings.template.json
 # Replace the placeholder with the real key.
 sed "s|__API_KEY__|$API_KEY|g" /tmp/settings.template.json > "$HOME/.claude/settings.json"
